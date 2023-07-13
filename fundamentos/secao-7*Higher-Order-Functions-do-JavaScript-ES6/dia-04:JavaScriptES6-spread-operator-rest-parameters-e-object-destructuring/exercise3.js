@@ -15,10 +15,7 @@ const alex = {
   };
   
   // complete a assinatura da função abaixo
-  const personLikes = (x) => {
-    const { name, age, likes } = x;
-    return `${name} is ${age} years old and likes ${likes.join(', ')}.`;
-};
+  const personLikes = ({ name, age, likes }) => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
   // <nome> tem <anos de idade> e gosta de <gostos da pessoa>
   
   // Retornos esperados:
